@@ -1,0 +1,17 @@
+oracle-db:
+  host:
+    - oracle-db-domain:1521
+    - oracle-db-domain:2484
+    - oracle-db-domain:6200
+  min: 3
+rabbitmq:
+  host:
+    - rabbit:5673
+  min: 1
+kafka:
+  host:
+    - kafka-node-1:9092
+    - kafka-node-2:9092
+    - kafka-node-3:9092
+    - kafka-node-4:9092
+  min: 6
